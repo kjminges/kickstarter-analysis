@@ -8,13 +8,13 @@ After Louise’s play *Fever* failed to meet its fundraising goal, they contract
 ### Analysis of Outcomes Based on Launch Date
 The first thing that we wanted to review the data for is the impact that time of year has on the success of a campaign. We started by filtering the data to look at campaigns with the Parent Category of *Theater*. We then counted the number of campaigns by the month they started and the outcomes of the campaign (i.e., success, failed, and canceled). The resulting data can be seen in the line graph below.
 
-[image]
+![Theater Outcomes by Launch Month](https://github.com/kjminges/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch.png)
 
 Reviewing the data, May, June, and July are the months that produce the most successful campaigns. Unfortunately, when adding together the failed and canceled campaigns, these months also produce the highest number of failed and canceled campaigns.
 
 In order to visualize the data better and account for the differences in the total count of the campaigns by month, we created the stacked bar chart below which shows the percentage splits for each month.
 
-[image]
+![Theater Outcome % by Launch Month](https://github.com/kjminges/kickstarter-analysis/blob/main/Theater_Outcomes_vs_Launch_2.png)
 
 This data shows the percentage splits between successful campaigns and failed, or cancelled campaigns is pretty consistent throughout the year. For January through November, the success rate only varies by 10 percentage points (from 57% to 67%). The only real takeaway is that December is not a month which has shown success, with a success rate of 49%. The lack of success could be tied to the doners deciding to allocate their disposable income toward expenses that are typically associated with the holidays (travel, other donations, gifts, etc.).
 
@@ -23,7 +23,7 @@ We should be wary of the month-by-month data since it can be heavily impacted by
 ### Analysis of Outcomes Based on Goals -
 Next, we decided to look at the impact that the goal a campaign sets has on the overall success of the campaign. For this analysis, we were specifically looking at the campaigns with the Parent Category of *Theater* and the Sub-category of *plays*. We started by bucketing each campaign by their goal. The buckets start with $0 - $4,999 and increase by $5,000 increments for each subsequent bucket up to $50,000. The last bucket captures all campaigns with a goal of $50,000 or more. 
 
-[image]
+![Outcomes by Goal](https://github.com/kjminges/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
 Looking at the data it is clear that there are specific zones where plays tend to have a higher success rate. In particular, plays with goals less than $15,000 and between $35,000 and $45,000 have success rates around or above 55%. Looking closer at the numbers each bucket for Goals over $15,000 have less than 25 data points. This makes the data for the plays with higher Goals less credible when projecting the impact of setting a goal. That's why Louise should focus on setting a goal below $15,000. There is enough experience to consider the outcomes credible and the outcomes are more successful than not.
 
